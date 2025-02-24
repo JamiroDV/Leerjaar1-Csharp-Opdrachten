@@ -8,7 +8,7 @@ public class Exercise1
 	public Exercise1()
 	{
         // lijst van de gebruikers
-		List<User> users = new List<User>();
+	    List<User> users = new List<User>();
 
         //maakt een nieuwe user aan met naam en leeftijd
         users.Add(new User("John", 25));
