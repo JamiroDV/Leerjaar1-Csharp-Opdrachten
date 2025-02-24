@@ -11,6 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
           Exercise1 excercise1 = new Exercise1();
+          Exercise2 excercise2 = new Exercise2();
         }
     }
 }

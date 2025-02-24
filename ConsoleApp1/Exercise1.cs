@@ -19,16 +19,16 @@ public class Exercise1
     }
 
 
-}
-
-public class User
-{
-    public string Name { get; set; }
-    public int Age { get; set; }
-
-    public User(string name, int age)
+    internal class User
     {
-        Name = name;
-        Age = age;
+        public string Name { get; set; }
+        public int Age { get; set; }
+
+        public User(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
     }
+
 }
